@@ -1,0 +1,93 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list_container{
+
+max-width: 700px;
+margin-top: 40px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+h1{
+    margin-bottom: 30px;
+}
+
+#button_agregar{
+    background-color: rgb(73, 146, 255);
+    color: white;
+    border: 1px solid black;
+    width: 120px;
+    height: 35px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#button_borrar{
+    border: 1px solid rgb(73, 146, 255);
+    color: rgb(73, 146, 255); 
+    margin-left: 10px;
+    width: 120px;
+    height: 35px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#input_todolist{
+    width: 330px;
+    height: 35px ;
+    margin-right: 20px;
+    border-radius: 6px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+
+li{
+    margin-top: 20px;
+}
+
+.listo{
+    width: 120px;
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.borrar{
+    width: 120px;
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.listo:active{
+    background-color: rgb(207, 206, 206);
+    color: black;
+}
+
+.borrar:active{
+    background-color: rgb(207, 206, 206);
+    color: black;
+}
+
+#button_agregar:active{
+    background-color:  rgb(44, 126, 248);
+}
+
+#button_borrar:active{
+    background-color:  rgb(224, 224, 224)
+}
